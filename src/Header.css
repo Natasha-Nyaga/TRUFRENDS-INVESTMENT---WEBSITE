@@ -1,0 +1,15 @@
+.custom-navbar{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:20px;
+    position:relative;
+    z-index:2;
+}
+header{
+    background-image:url("skyscraper.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+    z-index:1;
+}
