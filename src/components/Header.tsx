@@ -6,11 +6,13 @@ import './Header.css';
 
 const Header: React.FC = () => {
   return (
-    <Navbar className="custom-navbar" bg="" expand="lg">
+    <header>
+      
+    <Navbar className="custom-navbar" bg="" expand="md">
       <Navbar.Brand href="#"></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
-      {/*<Navbar.Collapse id="navbarNavDropdown">*/}
-        <Nav className="mr-auto">
+      <Navbar.Collapse id="navbarNavDropdown">
+        <Nav className="ms-auto">
           <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="#">About us</Nav.Link>
           <Nav.Link href="#">Services</Nav.Link>
@@ -23,9 +25,9 @@ const Header: React.FC = () => {
             <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
   </NavDropdown>*/}
         </Nav>
-     {/*} </Navbar.Collapse>*/}
+      </Navbar.Collapse>
     </Navbar>
-    
+    </header>
   );
 };
 

@@ -6,6 +6,10 @@
     position:relative;
     z-index:2;
 }
+.nav-link{
+    margin-right:20px;
+}
+
 header{
     background-image:url("skyscraper.jpg");
     height:100vh;
