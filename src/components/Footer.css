@@ -1,0 +1,38 @@
+.container-fluid{
+    background-color:#0F1035;
+    padding-left:0;
+    padding-right:0;
+    
+    
+}
+
+ .footer ul{
+    list-style-type:none;
+    padding-top:15px;
+    display:flex;
+    gap:2em;
+    justify-content:center;
+ }
+ .footer ul li a{
+   text-decoration:none;
+   font-size:small;
+   color:white;
+ }
+ .footer ul li a:hover{
+   color:#40A2D8;
+ }
+ .footer .row{
+    margin-left:0;
+    margin-right:0;
+ }
+ .col p{
+   color:white;
+   text-align:center;
+   font-size:small;
+ }
+ i{
+   color:white;
+   display:flex;
+   justify-content:center;
+   padding-bottom:10px;
+ }

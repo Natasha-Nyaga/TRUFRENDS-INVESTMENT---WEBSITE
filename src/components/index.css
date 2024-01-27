@@ -2,7 +2,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat';
   line-height: 1.5;
   font-weight: 400;
 
@@ -59,7 +59,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #000000;
     background-color: #ffffff;
   }
   a:hover {
@@ -68,6 +68,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
   /* Nav Bar */
 .navbar{
   display: flex;
@@ -79,6 +80,10 @@ position:relative;
 z-index:2;
 
 
+}
+body, html{
+  margin:0;
+  padding:0;
 }
 
 }

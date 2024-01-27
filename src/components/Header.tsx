@@ -7,8 +7,8 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <header>
-      
-    <Navbar className="custom-navbar" bg="" expand="md">
+      <div className = "main-container" id="content-container">
+      <Navbar className="custom-navbar" bg="" expand="lg">
       <Navbar.Brand href="#"></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
@@ -27,6 +27,17 @@ const Header: React.FC = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    <div className ="dark-overlay"></div>
+
+       <div className="home-container">
+       <h1>Elevate Your Investments</h1><br />
+       <p>
+       <i> Empowering Growth, Ensuring Success</i></p><br />
+       <p>Established in 2023, we're your partners in prosperity, committed to excellence, innovation, and ethical practices. Explore our diverse sectors, visionary directors, and transformative projects. Join us on a journey of financial success, where integrity, innovation, and client-centricity drive everything we do. Invest in tomorrow with Trufrends – where growth is not just a goal; it's a promise.<i/></p><br />
+       </div>
+
+    
+    </div>
     </header>
   );
 };
