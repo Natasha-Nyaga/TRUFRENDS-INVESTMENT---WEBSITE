@@ -30,7 +30,7 @@
    text-align:center;
    font-size:small;
  }
- i{
+ .col i{
    color:white;
    display:flex;
    justify-content:center;

@@ -1,31 +1,52 @@
-body, html{
-    margin:0;
-    padding:0;
-}
-.container{
-    display:flex;
-    margin-bottom: 20px;
-}
-.column{
-    flex:50%;
-    padding:5px;
-    
-}
-.container-fluid{
-    padding-left:0;
-    padding-right:0;
-    margin:0px;
-    
-}
-.h1{
-    
-    text-align:center;
-    white-space:pre-wrap;
-    text-transform:uppercase;
-    margin:30px;
-    
+.main-container{
+    position:relative;
+    background:url('./src/skyscraper.jpg') no-repeat center center fixed;
+    background-size:cover;
+    height:100vh;
+    max-width:100%;
 }
 .hero-container{
-    background-color:white;
+    max-width: 800px;
+    width:100%;
+    margin: 10px;
+    padding:20px;
     
+    /*background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    color:white;
+    position: relative;
+    z-index:1;
+
+}
+.hero-container h1, 
+.hero-container i,
+.hero-container p{
+    font-family: 'Montserrat', Light-300;
+    text-align:justify;
+ 
+}
+.hero-container h1{
+    font-size:330%;
+    width:10%;
+    white-space:inherit;
+    letter-spacing:0px;
+    
+}
+.hero-container h1 span{
+    display:block;
+    line-height:1;
+}
+.hero-container p{
+    font-size: 110%;
+}
+.dark-overlay{
+    position: absolute;
+    height:100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.35);
+    z-index:0;
 }
