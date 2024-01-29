@@ -2,14 +2,19 @@
     position:relative;
     background:url('./src/skyscraper.jpg') no-repeat center center fixed;
     background-size:cover;
+    display:grid;
+    align-content:center;
     height:100vh;
     max-width:100%;
+    z-index:10;
 }
 .hero-container{
     max-width: 800px;
     width:100%;
-    margin: 10px;
+    margin-top:0px 0px 0px 20px;
     padding:20px;
+    padding-bottom:10px;
+    padding-top:10px;
     
     /*background: rgba(255, 255, 255, 0.2);
     border: 1px solid #ccc;
@@ -28,6 +33,7 @@
 }
 .hero-container h1{
     font-size:330%;
+    font-weight:bold;
     width:10%;
     white-space:inherit;
     letter-spacing:0px;

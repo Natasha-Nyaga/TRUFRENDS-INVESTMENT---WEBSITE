@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   return (
     <header>
       
-      <Navbar className="custom-navbar" bg="" expand="lg">
+      <Navbar className="custom-navbar navbar navbar-expand-lg">
       <Navbar.Brand href="#"></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
