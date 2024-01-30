@@ -19,15 +19,51 @@ const About = () => {
                 <h1>Mission</h1>
                 <p>To be the catalyst for financial success by providing innovative investment solutions and fostering sustainable partnerships.</p>
                 <h1 style={{marginTop:'30px'}}>Core Values</h1>
-                <p>Integrity: Upholding the highest ethical standards in all our dealings.</p><br />
-                <p>Innovation: Embracing creativity and forward-thinking for constant improvement.</p><br />
-                <p>Client-Centricity: Prioritizing the success and satisfaction of our clients.</p><br />
-                <p>Collaboration: Fostering strong partnerships and teamwork for mutual success.</p><br />
-                <p>Resilience: Adapting to change and overcoming challenges with resilience.</p>
+                <div className="bullet-list">
+                    <ul>
+                        <li>Integrity: Upholding the highest ethical standards in all our dealings.</li>
+                        <li>Innovation: Embracing creativity and forward-thinking for constant improvement.</li>
+                        <li>Client-Centricity: Prioritizing the success and satisfaction of our clients.</li>
+                        <li>Collaboration: Fostering strong partnerships and teamwork for mutual success.</li>
+                        <li>Resilience: Adapting to change and overcoming challenges with resilience.</li>
+                    </ul>
+                </div>
                 
             </div>
 
 
+        </div>
+        <div className="lower">
+            <div className="description">
+                <h1>Founding Directors</h1>
+                <p>Trufrends Investment Limited was founded by three dynamic individuals with extensive experience and a shared vision for success.</p>
+            </div>
+            <div className="avatar-container">
+                <div className="avatar-info">
+                 <img src="/src/p1.png" alt="Avatar1" className="avatar" />
+                 <div className="info">
+                    <h4>David Nyaga</h4>
+                    <i>With a background in property development, David brings valuable insights into real estate strategies.</i>
+                 </div>
+                </div>
+                <div className="avatar-info">
+                 <img src="/src/p1.png" alt="Avatar1" className="avatar" />
+                 <div className="info">
+                    <h4>Tiberius Nyangau</h4>
+                    <i>A seasoned expert in business solutions, Tiberius is instrumental in the company's operational efficiency.</i>
+                 </div>
+                </div>
+                <div className="avatar-info">
+                 <img src="/src/p1.png" alt="Avatar1" className="avatar" />
+                 <div className="info">
+                    <h4>Lucky Kambale</h4>
+                    <i>Specializing in short-term property rentals, Lucky adds a unique perspective to our diverse portfolio.</i>
+                 </div>
+                </div>
+            </div>
+            
+
+            
         </div>
 
       </div>
