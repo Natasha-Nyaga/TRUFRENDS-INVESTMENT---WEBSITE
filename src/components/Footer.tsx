@@ -13,7 +13,7 @@ const MyFooter = () =>{
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#properties">PROPERTIES</a></li>
+                    
                     <li><a href="#contact">CONTACT US</a></li>
                    </ul>
                 </Col>

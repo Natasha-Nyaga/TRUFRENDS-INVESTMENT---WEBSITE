@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap styles
 import Header from './Header.tsx';
 import Home from './Home.tsx';
 import About from './About.tsx';
-
+import Services from './Services.tsx';
+import Contact from './contact.tsx';
 import MyFooter from './Footer.tsx';
 
 
@@ -19,9 +20,9 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
-          {/*<Route path="/services" element={<Services />} />
-          <Route path="/properties" element={<Properties />} />
-          <Route path="/contact" element={<Contact />} />*/}
+          <Route path="/services" element={<Services />} />
+          {/*<Route path="/properties" element={<Properties />} />*/}
+          <Route path="/contact" element={<Contact />} />
        </Routes>
       </main>
       <MyFooter/>

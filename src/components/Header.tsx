@@ -18,7 +18,7 @@ const Header: React.FC = () => {
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/About">About us</Nav.Link>
           <Nav.Link as={Link} to="/Services">Services</Nav.Link>
-          <Nav.Link as={Link} to="/Properties">Properties</Nav.Link>
+          {/*<Nav.Link as={Link} to="/Properties">Properties</Nav.Link>*/}
           <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
           
           {/*<NavDropdown title="Dropdown link" id="navbarDropdownMenuLink">
