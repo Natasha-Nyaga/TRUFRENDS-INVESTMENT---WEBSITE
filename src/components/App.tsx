@@ -6,7 +6,7 @@ import Header from './Header.tsx';
 import Home from './Home.tsx';
 import About from './About.tsx';
 import Services from './Services.tsx';
-import Contact from './contact.tsx';
+import Contact from './Contact.tsx';
 import MyFooter from './Footer.tsx';
 
 
