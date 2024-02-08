@@ -60,4 +60,61 @@ body{
     margin-bottom: 20px;
 }
 
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 430px) {
+    .navbar {
+        margin-bottom: 80px; /* Adjusted margin for spacing */
+    }
+
+    .top-content {
+        margin-top: 80px; /* Adjusted margin for spacing */
+        padding:40px;
+    }
+    .top {
+        height: auto; /* Auto height for smaller screens */
+    }
+
+    .top-content h1 {
+        font-size: 150%; /* Adjusted font size for smaller screens */
+    }
+
+    .image-icon {
+        width: 60px; /* Adjusted width for smaller screens */
+        height: 60px; /* Adjusted height for smaller screens */
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+    }
+    .main{
+        height:auto;
+    }
+
+    .main-text p,
+    .bullet-list ul {
+        font-size: 12px; /* Adjusted font size for smaller screens */
+        padding:20px;
+    }
+
+    .main .row {
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    .col-md-6 {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
+/* Additional adjustments for iPhone SE and similar sizes */
+@media only screen and (max-width: 375px) {
+    .top-content {
+        margin-top: 15px;
+    }
+}
+
+/* Additional adjustments for iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .top-content {
+        margin-top: 30px;
+    }
+}
+
+
+
 

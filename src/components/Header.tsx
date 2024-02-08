@@ -15,11 +15,11 @@ const Header: React.FC = () => {
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
         <Nav className="ms-auto">
-          <Nav.Link as={Link} to="/">Home</Nav.Link>
-          <Nav.Link as={Link} to="/About">About us</Nav.Link>
-          <Nav.Link as={Link} to="/Services">Services</Nav.Link>
+          <Nav.Link as={Link} to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</Nav.Link>
+          <Nav.Link as={Link} to="/About"className={location.pathname === '/About' ? 'active-link' : ''}>About us</Nav.Link>
+          <Nav.Link as={Link} to="/Services"className={location.pathname === '/Services' ? 'active-link' : ''}>Services</Nav.Link>
           {/*<Nav.Link as={Link} to="/Properties">Properties</Nav.Link>*/}
-          <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/Contact"className={location.pathname === '/Contact' ? 'active-link' : ''}>Contact Us</Nav.Link>
           
           {/*<NavDropdown title="Dropdown link" id="navbarDropdownMenuLink">
             <NavDropdown.Item href="#">Action</NavDropdown.Item>

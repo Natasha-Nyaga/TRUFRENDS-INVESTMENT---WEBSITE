@@ -6,39 +6,26 @@ const Home = () => {
     return(
        <Container fluid>
     
-        
         <div className="home-container">
-            <div className="h1">
-                <h1>Our Key Projects</h1>  
-            </div>
+            <div className="achievements">
+                <div className="achievements-left">
+                    <h2>Achievements & Milestones</h2>
+                </div>
+                <div className="achievements-right">
+                    <p>Trufrends Investment Limited takes pride in its achievements and milestones, which reflect our commitment to excellence and client satisfaction.</p>
+                </div>
+            </div>    
+                <div className="future">
+                    <div className="future-left">
+                        <h2>Future Outlook</h2>
+                    </div>
+                    <div className="future-right">
+                        <p>Looking ahead, Trufrends Investment Limited is poised for continuous growth and success. Our strategic initiatives and commitment to innovation position us as a driving force in the ever-evolving investment landscape.</p>
+                    </div>
+                </div>
             
-            <div className="container">
-                <div className="column">
-                    <img src="/src/image1.jpg" alt="image1" width="350" height="350" />
-                </div>
-                <div className="column">
-                    <p>The description for the image goes here!</p>
-                </div>
-            </div>
-            <div className="container">
-                <div className="column">
-                    <img src="/src/image2.jpg" alt="image1" width="350" height="350" />
-                </div>
-                <div className="column">
-                    <p>The description for the image goes here!</p>
-                </div>
-            </div> 
-            <div className="container">
-                <div className="column">
-                    <img src="/src/image3.jpg" alt="image1" width="350" height="350" />
-                </div>
-                <div className="column">
-                    <p>The description for the image goes here!</p>
-                </div>
-            </div> 
         </div>
        </Container>
-
 
     );
 };

@@ -1,6 +1,6 @@
 .main-container{
     position:relative;
-    background:url('./src/skyscraper.jpg') no-repeat center center fixed;
+    background:url('./src/house.jpg') no-repeat center center fixed;
     background-size:cover;
     display:grid;
     align-content:center;
@@ -55,4 +55,19 @@
     left: 0;
     background-color:rgba(0, 0, 0, 0.35);
     z-index:0;
+}
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .hero-container {
+        max-width: 90%; /* Adjusted width for smaller screens */
+        margin: 10px auto; /* Center the container on smaller screens */
+    }
+
+    .hero-container h1 {
+        font-size: 200%; /* Adjusted font size for smaller screens */
+    }
+
+    .hero-container p {
+        font-size: 100%; /* Adjusted font size for smaller screens */
+    }
 }

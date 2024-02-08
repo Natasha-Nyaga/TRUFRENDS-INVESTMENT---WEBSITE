@@ -8,7 +8,7 @@
 .contact-container{
     position:relative;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     top: -20px;
     width:900px;
     height:520px;
@@ -20,6 +20,7 @@
     color:white;
     margin:30px;
     max-width:300px;
+    margin-right:20px;
 
 }
 .left h1{
@@ -34,4 +35,113 @@
     font-style:normal;
     line-height:3em;
     font-stretch:ultra-expanded;
+}
+.right{
+    color:black;
+    margin:30px;
+    width:470px;
+
+    background-color:white;
+    border-radius:25px;
+}
+.right-content{
+    padding:20px 20px 20px 35px;
+
+    align-items:center;
+    justify-content:center;
+        
+}
+input, textarea{
+    width:80%;
+    border:none;
+    border-radius:0px;
+    border-bottom:1.5px solid black;
+    background:transparent;
+    margin-bottom:20px;
+}
+button{
+    margin-bottom:10px;
+    border-radius:5px;
+    padding:10px;
+    background-color:#3468C0;
+    border-color: #3468C0;
+}
+button:hover{
+    background-color:#365486;
+    border-color:#365486;
+}
+input:focus, textarea:focus{
+    outline:none;
+    border-radius:0;
+    
+}
+.success-message{
+    color:green;
+    width:70%;
+    border:1px solid green;
+    border-radius:5px;
+    padding:10px;
+    background-color:#CDFADB;
+}
+.error-message{
+    color:red;
+    width:90%;
+    border:1px solid red;
+    border-radius:5px;
+    padding:10px;
+    background-color:#FF8F8F;
+    
+}
+/* Media Queries for iPhone SE */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px) {
+    /* Adjustments for iPhone SE go here */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .left, .right {
+        margin: 10px auto;
+        max-width: 280px;
+    }
+
+    .left h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+}
+
+/* Media Queries for iPad Mini */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    /* Adjustments for iPad Mini go here */
+    .contact-container {
+        flex-direction: row;
+        align-items: flex-start;
+        width: auto;
+        height: auto;
+    }
+
+    .left, .right {
+        margin: 20px auto;
+        max-width: 460px;
+    }
+
+    .left h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
 }

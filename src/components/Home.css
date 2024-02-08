@@ -2,30 +2,60 @@ body, html{
     margin:0;
     padding:0;
 }
-.container{
-    display:flex;
-    margin-bottom: 20px;
-}
-.column{
-    flex:50%;
-    padding:5px;
-    
-}
-.container-fluid{
-    padding-left:0;
-    padding-right:0;
-    margin:0px;
-    
-}
-.h1{
-    
-    text-align:center;
-    white-space:pre-wrap;
-    text-transform:uppercase;
-    margin:30px;
-    
-}
 .home-container{
     background-color:white;
+    display:flex;
+    flex-direction:column;
+    height:65dvh;
+}
+.achievements{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    max-width:700px;
     
+}
+.achievements-left{
+    margin:30px;
+    border-right:1px solid black;
+}
+.achievements-left h2{
+    padding:20px;
+}
+.future{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    max-width:700px;
+    margin-left:auto;
+
+}
+.future-left{
+    margin:30px;
+    border-right:1px solid black;
+    text-align:left;
+}
+.future-left h2{
+    padding:20px;
+}
+.future-right{
+    width:70%;
+}
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .achievements,
+    .future {
+        height: auto; /* Remove fixed height for smaller screens */
+    }
+
+    .achievements-left,
+    .achievements-left h2,
+    .future-left,
+    .future-left h2 {
+        margin: 10px; /* Adjust margin for smaller screens */
+        border-bottom: 1px solid black; /* Add border-bottom for smaller screens */
+        border-right: none; /* Remove right border for smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
 }
