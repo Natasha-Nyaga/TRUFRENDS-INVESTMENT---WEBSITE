@@ -1,17 +1,42 @@
 // src/components/Header.tsx
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Navbar, Nav,} from 'react-bootstrap';
 import {Link, useLocation} from 'react-router-dom';
 import './Header.css';
 import Hero from './Hero.tsx';
+import logo from '/src/logo.png';
 
 const Header: React.FC = () => {
   const location=useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = document.querySelector('.custom-navbar');
+      if (navbar) {
+        const scrollPosition = window.scrollY || window.pageYOffset;
+        const threshold = 400;
+
+        if (scrollPosition > threshold) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () =>{
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <header>
       
-      <Navbar className="custom-navbar navbar navbar-expand-lg">
-      <Navbar.Brand href="#"></Navbar.Brand>
+      <Navbar expand="lg" className="custom-navbar navbar navbar-expand-lg">
+      <Navbar.Brand>
+        <img src = {logo} alt="logo" className="logo-img" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
         <Nav className="ms-auto">

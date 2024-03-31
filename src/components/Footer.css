@@ -36,3 +36,18 @@
    justify-content:center;
    padding-bottom:10px;
  }
+ @media only screen and (max-width: 768px) {
+  .footer ul {
+    flex-direction: column; /* Change the direction to column for smaller screens */
+    align-items: center; /* Center align items for smaller screens */
+    padding-top: 0; /* Remove top padding for smaller screens */
+  }
+
+  .footer ul li {
+    margin-bottom: 10px; /* Add margin between list items for smaller screens */
+  }
+
+  .col p {
+    font-size: x-small; /* Decrease font size for smaller screens */
+  }
+}

@@ -7,18 +7,28 @@ body, .container{
     margin:0;
     padding:0;
 }
+.logo-img{
+    width:90px;
+    
+}
 
 .custom-navbar{
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    padding:20px;
+    padding:0px;
     position:fixed;
     top:0;
     width:100%;
     z-index:50;
-    background-color:rgba(255,255,255,0)!important;
+    background-color:rgba(255,255,255,0);
+    transition: background-color 0.3s ease;
 }
+.custom-navbar.scrolled{
+    background-color: #0F2C59;
+}
+
+
 .nav-link{
     margin-right:20px;
     color: white;
@@ -32,6 +42,10 @@ body, .container{
     .custom-navbar {
         justify-content: center;
     }
+    .logo-img {
+        width: 60px; /* Adjust logo size for smaller screens */
+      }
+    
 }
 
 .nav-link:hover{
@@ -42,6 +56,8 @@ body, .container{
     border-top:1px solid white;
     color:white !important;
 }
-nav-scroll{
-    background-color:#0F1035;
-}
+
+    
+    
+
+    

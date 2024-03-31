@@ -61,7 +61,7 @@
     max-width:500px;    
 }
 .middle h1{
-    margin-top:80px;
+    margin-top:50px;
     font-weight:bold;
 }
 .middle p{
@@ -122,64 +122,56 @@ li{
     margin-top:20px;
 }
 /* Media Queries for Mobile Devices */
-
 @media only screen and (max-width: 768px) {
+    .middle {
+      flex-direction: column; /* Change flex direction to column for smaller screens */
+      align-items: center; /* Center align items for smaller screens */
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  
     .background-img,
     .overlay {
-        display: none;
+      display: none; /* Hide background image and overlay for smaller screens */
     }
-
-    .upper-content,
-    .description,
-    .info,
-    .avatar-info,
-    .avatar-container,
-    .bullet-list,
-    .achievements,
-    .future,
-    .home-container,
-    .main-container,
-    .hero-container,
-    .achievements-left,
-    .future-left,
-    .column,
-    .upper-content h1,
-    .hero-container h1,
-    .hero-container i,
-    .hero-container p,
-    .future-right,
-    .avatar,
-    .middle h1,
-    .middle p {
-        max-width: 100%; /* Full width for smaller screens */
-        width:100%; /*Full width for smaller screens*/
-        margin: 10px; /* Adjusted margin for smaller screens */
+  
+    .column {
+      width: 100%; /* Set width to 100% for smaller screens */
+      flex: 100%; /* Set flex to 100% for smaller screens */
     }
-
+  
     .upper-content h1 {
-        font-size: 150%; /* Adjusted font size for smaller screens */
+      font-size: 150%; /* Adjusted font size for smaller screens */
     }
-
-    .hero-container h1 {
-        font-size: 200%; /* Adjusted font size for smaller screens */
-    }
-
+  
     .middle h1 {
-        text-align: left; /* Centered left on smaller screens */
-        margin-top: 10px; /* Adjusted margin for smaller screens */
+      margin-top: 10px; /* Adjusted margin for smaller screens */
+      text-align: left; /* Centered left on smaller screens */
     }
-
+  
+    .bullet-list,
+    ul {
+      text-align: left; /* Centered left on smaller screens */
+      max-width: unset; /* Remove max-width for smaller screens */
+      width: 100%; /* Set width to 100% for smaller screens */
+    }
+  
+    li {
+      margin-bottom: 5px; /* Adjusted margin for smaller screens */
+    }
+  
     .avatar {
-        width: 60px; /* Adjusted width for smaller screens */
-        height: 60px; /* Adjusted height for smaller screens */
+      width: 60px; /* Adjusted width for smaller screens */
+      height: 60px; /* Adjusted height for smaller screens */
     }
-
+  
     .info,
     .description,
     .upper-content h1,
     .hero-container h1,
     .middle h1,
     .middle p {
-        text-align: left; /* Centered left on smaller screens */
+      text-align: left; /* Centered left on smaller screens */
+      margin: 10px; /* Adjusted margin for smaller screens */
     }
-}
+  }
+  

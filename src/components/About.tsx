@@ -16,9 +16,12 @@ const About = () => {
                 <img src="/src/aboutimg1.jpg" alt="about-one" className="background-img"/>
             </div>
             <div className="column">
-                <h1>Mission</h1>
+                <h1>Vision</h1>
+                <p>To pursue unique business and investment
+                  opportunities globally with profitable returns to our shareholders</p>
+                <h1 style = {{marginTop:'20px'}}>Mission</h1>
                 <p>To be the catalyst for financial success by providing innovative investment solutions and fostering sustainable partnerships.</p>
-                <h1 style={{marginTop:'30px'}}>Core Values</h1>
+                <h1 style={{marginTop:'20px'}}>Core Values</h1>
                 <div className="bullet-list">
                     <ul>
                         <li>Integrity: Upholding the highest ethical standards in all our dealings.</li>

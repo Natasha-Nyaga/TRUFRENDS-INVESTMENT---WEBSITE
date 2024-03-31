@@ -12,7 +12,7 @@ const Hero = () => {
         <p>
           <i> Empowering Growth, Ensuring Success</i>
         </p><br />
-        <p>Established in 2023, we're your partners in prosperity, committed to excellence, innovation, and ethical practices. Explore our diverse sectors, visionary directors, and transformative projects. Join us on a journey of financial success, where integrity, innovation, and client-centricity drive everything we do. Invest in tomorrow with Trufrends – where growth is not just a goal; it's a promise.<i/></p><br />
+        <p>Established in 2023 in Kenya, we're your partners in prosperity, committed to excellence, innovation, and ethical practices. Explore our diverse sectors, visionary directors, and transformative projects. Join us on a journey of financial success, where integrity, innovation, and client-centricity drive everything we do. Invest in tomorrow with Trufrends – where growth is not just a goal; it's a promise.<i/></p><br />
       </div>
     </div>
     </div>

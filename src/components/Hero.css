@@ -14,7 +14,7 @@
     margin-top:0px 0px 0px 20px;
     padding:20px;
     padding-bottom:10px;
-    padding-top:10px;
+    padding-top:60px;
     
     /*background: rgba(255, 255, 255, 0.2);
     border: 1px solid #ccc;
@@ -59,15 +59,23 @@
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 768px) {
     .hero-container {
-        max-width: 90%; /* Adjusted width for smaller screens */
-        margin: 10px auto; /* Center the container on smaller screens */
+      max-width: 90%; /* Adjusted width for smaller screens */
+      margin: 5px auto; /* Center the container on smaller screens */
+      padding: 10px; /* Adjusted padding for smaller screens */
     }
-
+  
     .hero-container h1 {
-        font-size: 200%; /* Adjusted font size for smaller screens */
+      font-size: 200%; /* Adjusted font size for smaller screens */
+      margin-top: 20px; /* Added margin-top for smaller screens */
     }
-
+  
     .hero-container p {
-        font-size: 100%; /* Adjusted font size for smaller screens */
+      font-size: 100%; /* Adjusted font size for smaller screens */
+      margin-bottom: 20px; /* Added margin-bottom for smaller screens */
     }
-}
+  
+    .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.6); /* Adjusted opacity for smaller screens */
+    }
+  }
+  
