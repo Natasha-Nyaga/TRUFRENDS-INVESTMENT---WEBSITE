@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Container, Row, Col,  } from 'react-bootstrap';
 import './Footer.css';
 
@@ -10,11 +11,12 @@ const MyFooter = () =>{
                 <Col>
                    
                    <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#services">SERVICES</a></li>
+                    <li><Link to ='/'>HOME</Link></li>
+                    <li><Link to ='about'>ABOUT US</Link></li>
+                    <li><Link to ='services'>SERVICES</Link></li>
+                    <li><Link to ='contact'>CONTACT US</Link></li>
                     
-                    <li><a href="#contact">CONTACT US</a></li>
+                    
                    </ul>
                 </Col>
             </Row>

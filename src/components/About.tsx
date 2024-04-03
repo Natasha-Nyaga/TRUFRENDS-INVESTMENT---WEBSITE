@@ -13,7 +13,7 @@ const About = () => {
         <div className="middle">
             <div className="column">
                 <div className="overlay"></div>
-                <img src="/src/aboutimg1.jpg" alt="about-one" className="background-img"/>
+                <img src="/src/apartment-complex.jpg" alt="an image showing an apartment complex" className="background-img"/>
             </div>
             <div className="column">
                 <h1>Vision</h1>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div className="avatar-container">
                 <div className="avatar-info">
-                 <img src="/src/p1.png" alt="Avatar1" className="avatar" />
+                 <img src="/src/avatar-image.png" alt="Avatar" className="avatar" />
                  <div className="info">
                     <h4>David Nyaga</h4>
                     <i>With a background in property development, David brings valuable insights into real estate strategies.</i>
