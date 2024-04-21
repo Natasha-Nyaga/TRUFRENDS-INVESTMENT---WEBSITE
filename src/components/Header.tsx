@@ -35,7 +35,7 @@ const Header: React.FC = () => {
       
       <Navbar expand="lg" className="custom-navbar navbar navbar-expand-lg">
       <Navbar.Brand>
-        <img src = {logo} alt="logo" className="logo-img" />
+       {/*<img src = {logo} alt="logo" className="logo-img" />*/}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
