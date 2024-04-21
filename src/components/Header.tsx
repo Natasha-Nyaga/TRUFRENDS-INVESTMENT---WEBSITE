@@ -4,7 +4,7 @@ import { Navbar, Nav,} from 'react-bootstrap';
 import {Link, useLocation} from 'react-router-dom';
 import './Header.css';
 import Hero from './Hero.tsx';
-import logo from '/src/logo.png';
+
 
 const Header: React.FC = () => {
   const location=useLocation();
