@@ -7,16 +7,13 @@ body, .container{
     margin:0;
     padding:0;
 }
-.logo-img{
-    width:90px;
-    
-}
+
 
 .custom-navbar{
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    padding:0px;
+    padding:20px;
     position:fixed;
     top:0;
     width:100%;
