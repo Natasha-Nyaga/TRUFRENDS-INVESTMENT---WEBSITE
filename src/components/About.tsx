@@ -43,21 +43,21 @@ const About = () => {
             </div>
             <div className="avatar-container">
                 <div className="avatar-info">
-                 <img src="/src/assets/images/avatar-image.png" alt="Avatar" className="avatar" />
+                 <img src="/public/avatar-image.png" alt="Avatar" className="avatar" />
                  <div className="info">
                     <h4>David Nyaga</h4>
                     <i>With a background in property development, David brings valuable insights into real estate strategies.</i>
                  </div>
                 </div>
                 <div className="avatar-info">
-                 <img src="/src/assets/images/avatar-image.png" alt="Avatar1" className="avatar" />
+                 <img src="/public/avatar-image.png" alt="Avatar1" className="avatar" />
                  <div className="info">
                     <h4>Tiberius Nyangau</h4>
                     <i>A seasoned expert in business solutions, Tiberius is instrumental in the company's operational efficiency.</i>
                  </div>
                 </div>
                 <div className="avatar-info">
-                 <img src="/src/assets/images/avatar-image.png" alt="Avatar1" className="avatar" />
+                 <img src="/public/avatar-image.png" alt="Avatar1" className="avatar" />
                  <div className="info">
                     <h4>Lucky Kambale</h4>
                     <i>Specializing in short-term property rentals, Lucky adds a unique perspective to our diverse portfolio.</i>
