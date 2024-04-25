@@ -1,6 +1,6 @@
 .main-container{
     position:relative;
-    background:url('./src/house.jpg') no-repeat center center fixed;
+    background:url('./src/assets/images/house.jpg') no-repeat center center fixed;
     background-size:cover;
     display:grid;
     align-content:center;
