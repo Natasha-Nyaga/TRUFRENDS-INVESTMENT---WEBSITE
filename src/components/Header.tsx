@@ -14,7 +14,12 @@ const Header: React.FC = () => {
       const navbar = document.querySelector('.custom-navbar');
       if (navbar) {
         const scrollPosition = window.scrollY || window.pageYOffset;
-        const threshold = 400;
+        let threshold = 400; // threshold for larger screens
+
+        //Adjust threshold for smaller screen
+      if (window.innerWidth < 768) { // Example threshold for screens less than 768px wide
+        threshold = 10; // Change this value to your desired threshold for smaller screens
+      }
 
         if (scrollPosition > threshold) {
           navbar.classList.add('scrolled');
