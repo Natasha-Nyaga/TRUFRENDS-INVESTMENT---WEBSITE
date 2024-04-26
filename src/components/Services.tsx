@@ -14,7 +14,7 @@ const Services = () =>{
                 <div className="row">
                     <div className="col-md-6">
                         <div className="card">
-                          <img src="/public/property-development-icon.png" alt="an image icon for property development and sale" className="image-icon"/>
+                          <img src="/property-development-icon.png" alt="an image icon for property development and sale" className="image-icon"/>
                             <div className="main-text">
                                 <h4>Property Development and Sale</h4>
                                 <p>Trufrends Investment Limited is actively involved in the development and sale of properties, aiming to transform spaces into thriving communities. Our focus is on creating sustainable and aesthetically pleasing environments that enhance the quality of life for our clients.</p>
@@ -35,7 +35,7 @@ const Services = () =>{
                     </div>
                     <div className="col-md-6">
                         <div className="card">
-                          <img src="/public/business-solutions-icon.png" alt="an image icon for business solutions" className="image-icon"/>
+                          <img src="/business-solutions-icon.png" alt="an image icon for business solutions" className="image-icon"/>
                             <div className="main-text">
                                 <h4>Business Solutions</h4>
                                 <p>Our business solutions sector is dedicated to providing comprehensive solutions to businesses across various industries. We focus on optimizing processes and enhancing efficiency to support our clients' growth.</p>
@@ -63,7 +63,7 @@ const Services = () =>{
                     </div>
                     <div className="col-md-6">
                         <div className="card">
-                          <img src="/public/short-term-rentals.png" alt="an image icon for short-term rentals for sale" className="image-icon"/>
+                          <img src="/short-term-rentals.png" alt="an image icon for short-term rentals for sale" className="image-icon"/>
                             <div className="main-text">
                                 <h4>Short-Term Property Rentals</h4>
                                 <p>Trufrends Investment Limited is a key player in the short-term property rental market. Leveraging our expertise, we provide high-quality, temporary housing solutions for both business and leisure travelers.</p>
@@ -91,7 +91,7 @@ const Services = () =>{
                     </div>
                     <div className="col-md-6">
                         <div className="card">
-                          <img src="/public/supplies-procurement-icon.png" alt="an image icon for supplies and procurement" className="image-icon"/>
+                          <img src="/supplies-procurement-icon.png" alt="an image icon for supplies and procurement" className="image-icon"/>
                             <div className="main-text">
                                 <h4>Supplies and Procurement</h4>
                                 <p>In the Supplies and Procurement sector, Trufrends Investment Limited is committed to delivering reliable and efficient procurement solutions. We specialize in sourcing quality supplies for businesses across various industries, ensuring seamless operations.</p>
