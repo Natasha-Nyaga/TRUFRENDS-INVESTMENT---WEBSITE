@@ -13,7 +13,7 @@ const About = () => {
         <div className="middle">
             <div className="column">
                 <div className="overlay"></div>
-                <img src="/apartment-complex.jpg" alt="an image showing an apartment complex" className="background-img"/>
+                <img src="/apartment-complex.png" alt="an image showing an apartment complex" className="background-img"/>
             </div>
             <div className="column">
                 <h1>Vision</h1>
