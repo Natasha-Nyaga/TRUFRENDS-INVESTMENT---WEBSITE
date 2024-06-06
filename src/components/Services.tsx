@@ -66,13 +66,12 @@ const Services = () =>{
                           <img src="/short-term-rentals.png" alt="an image icon for short-term rentals for sale" className="image-icon"/>
                             <div className="main-text">
                                 <h4>Short-Term Property Rentals</h4>
-                                <p>Trufrends Investment Limited is a key player in the short-term property rental market. Leveraging our expertise, we provide high-quality, temporary housing solutions for both business and leisure travelers.</p>
+                                <p>Trufrends Investment Limited is a key player in the short-term property rental market.</p>
                                 <h5>Key Offerings:</h5>
                                 <div className="bullet-list">
                                     <ul>
                                         <li>Furnished Apartments</li>
                                         <li>Vacation Homes</li>
-                                        <li>Corporate Housing</li>
                                     </ul>
 
                                 </div>

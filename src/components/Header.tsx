@@ -48,7 +48,7 @@ const Header: React.FC = () => {
           <Nav.Link as={Link} to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</Nav.Link>
           <Nav.Link as={Link} to="/About"className={location.pathname === '/About' ? 'active-link' : ''}>About us</Nav.Link>
           <Nav.Link as={Link} to="/Services"className={location.pathname === '/Services' ? 'active-link' : ''}>Services</Nav.Link>
-          {/*<Nav.Link as={Link} to="/Properties">Properties</Nav.Link>*/}
+          <Nav.Link as={Link} to="/Properties"className={location.pathname === '/Properties' ? 'active-link' : ''}>Properties</Nav.Link>
           <Nav.Link as={Link} to="/Contact"className={location.pathname === '/Contact' ? 'active-link' : ''}>Contact Us</Nav.Link>
           
           {/*<NavDropdown title="Dropdown link" id="navbarDropdownMenuLink">

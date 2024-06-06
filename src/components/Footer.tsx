@@ -14,6 +14,7 @@ const MyFooter = () =>{
                     <li><Link to ='/'>HOME</Link></li>
                     <li><Link to ='about'>ABOUT US</Link></li>
                     <li><Link to ='services'>SERVICES</Link></li>
+                    <li><Link to ='properties'>PROPERTIES</Link></li>
                     <li><Link to ='contact'>CONTACT US</Link></li>
                     
                     
