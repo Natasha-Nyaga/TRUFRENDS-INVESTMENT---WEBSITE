@@ -19,7 +19,14 @@ const Services = () =>{
                                 <h4>Property Development and Sale</h4>
                                 <p>Trufrends Investment Limited is actively involved in the development and sale of properties, aiming to transform spaces into thriving communities. Our focus is on creating sustainable and aesthetically pleasing environments that enhance the quality of life for our clients.</p>
                                 <h5>Key Projects:</h5>
-                                <p>*List the key projects here!</p>
+                                <div className="bullet-list">
+                                    <ul>
+                                        <li>5 acre land in Karen near KEPHIS</li>
+                                        <li>4 bedroom house in Lavington</li>
+                                        
+                                    </ul>
+                                </div>
+                                
                                 <h5>Future Plans:</h5>
                                 <div className="bullet-list">
                                     <ul>
